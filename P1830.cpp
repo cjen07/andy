@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <vector>
 #include <string>
@@ -32,7 +31,6 @@ int main() {
                 b[i][j]=k+1;
             }
         }
-        
     }
     vector<string> output;
     for (int abc = 0; abc < y; abc++)
@@ -48,11 +46,9 @@ int main() {
         else
         {
             output.push_back("Y " + to_string(a[gjd1][gjd2]) + " " + to_string(b[gjd1][gjd2]));
-        }       
-        
+        }
     }
     for (int i=0;i<output.size();i++){
         cout<<output[i]<<endl;
-
     }    
 }
